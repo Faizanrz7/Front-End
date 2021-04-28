@@ -1,0 +1,125 @@
+.navbar {
+    background-color: white;
+    padding: 5px;
+    margin: 0;
+}
+.logo {
+    width: 100%;
+    display: flex;
+    margin: 0 150px;
+    text-align: center;
+}
+.logo img {
+    width: 50px;
+
+}
+.logo p {
+    text-align: center;
+    margin: 15px 0;
+    color: #6ba4a2;
+    font-weight: 600;
+}
+ul {
+    display: flex;
+    width: 100%;
+    float: left;
+    margin: 5px 0;
+    font-weight: 700;
+    text-align: center;
+}
+li {
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.appointment-button {
+    margin: 10px 0;
+}
+.appointment-button input {
+    background: grey;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+.intro {
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("../image/doctor.jpg");
+    background-size: cover;
+    height: 70vh;
+}
+p {
+    text-align: center;
+}
+.intro p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.allMessages {
+    margin: 100px 0;
+}
+.message {
+    font-size: xxx-large;
+}
+.main {
+    margin-top: 70px;
+}
+.sub-message {
+    font-size: large;
+    margin: 5px 0;
+}
+.author {
+    float: right;
+}
+.read {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+.read input {
+    padding: 10px 20px;
+    color: black;
+    font-weight: 700;
+}
+
+.features {
+    width: 100%;
+    float: left;
+}
+.heading {
+    margin: 45px 0;
+    color: #656e72;
+    font-weight: 540;
+}
+.heading p:nth-child(1) {
+    font-size: xx-large;
+}
+.box {
+    box-shadow: 0.1px 2px 5px -2px black;
+    padding: 10px;
+    margin: 15px 0;
+    height: 35vh;
+}
+.Fimg {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+.Fimg i {
+    justify-content: center;
+    margin: 20px 0;
+    font-size: xx-large;
+    width: 70px;
+}
+.featName {
+    margin-top: 20px;
+    color: grey;
+}
+.featName p {
+    font-weight: 700;
+}
